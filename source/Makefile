@@ -1,13 +1,11 @@
 CC =		g++
 AR =		ar
 #ARFLAGS =	@ARFLAGS@
-INCLUDES =	-I. -I../NDSE-SDK/include 
+INCLUDES =	-I. -I$(NDSE_SDK)/include
 CFLAGS =	-fPIC -g -O2 -fvisibility=hidden $(INCLUDES)
 LDFLAGS =
 
 SRCS=KEYPAD_Actor.cpp
-
-
 
 OBJS	:=	$(SRCS:.cpp=.o)
 
