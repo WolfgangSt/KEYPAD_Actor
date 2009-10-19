@@ -1,0 +1,8 @@
+LIBRARY
+EXPORTS
+	InputInit2
+	TriggerKey
+	TouchMove
+	
+
+
