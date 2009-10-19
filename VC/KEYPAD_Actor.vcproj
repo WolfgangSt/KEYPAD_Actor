@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;$(ProjectDir)..\NDSE-SDK\include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\NDSE-SDK\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -64,7 +64,7 @@
 				AdditionalDependencies="kernel32.lib user32.lib winmm.lib NDSE-Cored.lib $(NOINHERIT)"
 				OutputFile="$(OutDir)\$(ProjectName)d.dll"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;$(ProjectDir)..\NDSE-SDK\lib\VC08&quot;"
+				AdditionalLibraryDirectories="&quot;$(SolutionDir)..\NDSE-SDK\lib\VC08&quot;"
 				ModuleDefinitionFile="Exports.def"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -119,7 +119,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(ProjectDir)..\NDSE-SDK\include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)..\NDSE-SDK\include&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -140,7 +140,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="kernel32.lib user32.lib winmm.lib NDSE-Core.lib $(NOINHERIT)"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="&quot;$(ProjectDir)..\NDSE-SDK\lib\VC08&quot;"
+				AdditionalLibraryDirectories="&quot;$(SolutionDir)..\NDSE-SDK\lib\VC08&quot;"
 				ModuleDefinitionFile="Exports.def"
 				GenerateDebugInformation="true"
 				SubSystem="1"
